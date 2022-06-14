@@ -1,3 +1,15 @@
+"""
+ Created by Rawa on 06/14/2022 10:00 PM
+ For the project: MeshMonitors.io
+
+ We wanted to use Sentry's powerful API to parse the traces and send them to our webhook.
+
+ Note: This is a work in progress.
+ I created this class to parse message events, and exceptions from Sentry.
+ I'd like to add more features to this class.
+ Open a PR if you have any suggestions.
+"""
+
 from typing import Any, List, TypeVar, Type, cast, Callable
 from datetime import datetime
 

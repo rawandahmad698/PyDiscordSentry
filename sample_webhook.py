@@ -4,9 +4,9 @@ from discord_webhook import DiscordWebhook, DiscordEmbed
 import os
 
 # Your Heroku Environment Variables here
-webhook_url = os.environ.get('WEBHOOK_MAIN', "")
+webhook_url = "https://discord.com/api/webhooks/986254935609974815/aaoYhBwbG-msMS-XjpcuvbYmsJcQX-ZCX4L6aSy2GsyRgbTJ24FpMQykshVuMgJ9RbHf"
 icon_url = os.environ.get('ICON_URL', "")
-errors_hook = os.environ.get('WEBHOOK_ERRORS', "")
+errors_hook = "https://discord.com/api/webhooks/986254935609974815/aaoYhBwbG-msMS-XjpcuvbYmsJcQX-ZCX4L6aSy2GsyRgbTJ24FpMQykshVuMgJ9RbHf"
 
 
 def error_handler(error_title, error_body):

@@ -2,7 +2,8 @@ from Classes import SentryParser as Sn
 from discord_webhook import DiscordWebhook, DiscordEmbed
 
 import os
-# Your Heroku Environment Variables
+
+# Your Heroku Environment Variables here
 webhook_url = os.environ.get('WEBHOOK_MAIN', "")
 icon_url = os.environ.get('ICON_URL', "")
 errors_hook = os.environ.get('WEBHOOK_ERRORS', "")
